@@ -53,7 +53,7 @@ function display_info(info){
     var x = document.createElement('a');
     x.href = 'https://www.google.com/';
     x.append(bu1);
-    bu1.textContent = 'View Profile';
+    bu1.textContent = 'GOOGLE';
     bu1.classList.add('btn');
     card.append(x);
 

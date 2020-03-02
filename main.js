@@ -49,10 +49,13 @@ function display_info(info){
     let b1=document.createElement("br")
     card.append(b1);
 
-    var button = document.createElement("a");
-    button.textContent="view Profile:";
-    button.classList.add("btn");
-    card.append(button);
+  var bu1 = document.createElement('button');
+    var x = document.createElement('a');
+    x.href = 'https://www.google.com/';
+    x.append(bu1);
+    bu1.textContent = 'View Profile';
+    bu1.classList.add('btn');
+    card.append(x);
 
 
 
